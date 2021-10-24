@@ -14,7 +14,7 @@
             <p>
                 If you are an empoyee of this very corrupt company then you can log in and start scamming people.</p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Log in</a>
+                <a class="btn btn-default" href="EmployeeLogIn">Log in</a>
             </p>
         </div>
         <div class="col-md-4">
@@ -22,7 +22,7 @@
             <p>
                 If you are a client you can log in here</p>
             <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Log in</a>
+                <a class="btn btn-default" href="ClientLogIn">Log in</a>
             </p>
         </div>
     </div>
