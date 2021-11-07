@@ -106,6 +106,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="ClientRegister.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -124,7 +125,6 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
-    <Content Include="ClientLogIn.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="EmployeeLogIn.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -171,6 +171,13 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="ClientRegister.aspx.cs">
+      <DependentUpon>ClientRegister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClientRegister.aspx.designer.cs">
+      <DependentUpon>ClientRegister.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -216,13 +223,6 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="ClientLogIn.aspx.cs">
-      <DependentUpon>ClientLogIn.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="ClientLogIn.aspx.designer.cs">
-      <DependentUpon>ClientLogIn.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
